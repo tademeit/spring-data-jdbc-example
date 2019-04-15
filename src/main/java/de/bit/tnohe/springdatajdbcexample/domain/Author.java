@@ -4,18 +4,11 @@ import lombok.Getter;
 import lombok.Setter;
 import org.springframework.data.annotation.Id;
 
-import java.time.LocalDate;
-
 @Getter@Setter
-public class Customer {
+public class Author {
 
     @Id
-    Long id;
+    private Long id;
 
-    String name;
-
-    LocalDate dob;
-
-    String gender;
-
+    private String name;
 }
